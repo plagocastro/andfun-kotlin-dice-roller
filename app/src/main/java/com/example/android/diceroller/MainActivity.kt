@@ -40,9 +40,17 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollDice() {
         val randomInt = Random().nextInt(6) + 1
+        val drawableResource = when (randomInt) {
+            1 -> R.drawable.
+            2 -> R.drawable.
+            3 -> R.drawable.
+            4 -> R.drawable.
+            5 -> R.drawable.
+            else -> R.drawable.
+        }
 
-        val resultText: TextView = findViewById(R.id.textButton)
-        resultText.text = randomInt.toString()
+        diceImage.setImageResource(drawableResource)
+    }
     }
 
     }

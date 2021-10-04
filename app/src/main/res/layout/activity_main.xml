@@ -23,14 +23,23 @@
 
     <Button
         android:id="@+id/textButton"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Botonaso"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="356dp"
+        android:text="Roll"
+        app:icon="@android:drawable/ic_lock_idle_low_battery"
         tools:ignore="MissingConstraints"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
-        />
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <ImageView
+        android:id="@+id/diceImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="273dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
