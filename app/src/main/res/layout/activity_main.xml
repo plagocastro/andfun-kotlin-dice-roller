@@ -32,9 +32,11 @@
 
     <Button
         android:id="@+id/roll_button"
+        class="material-icons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/roll" />
+        android:text="@string/roll"
+        app:icon="@drawable/baseline_check_circle_outline_24" />
 
 </LinearLayout>
