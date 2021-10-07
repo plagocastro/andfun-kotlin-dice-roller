@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        val n = listOf(1, 2, 3, 4, 5, 6)
+        val n = listOf(1, 2, 3, 4, 5, 6,7)
         val numeros = n.shuffled().last()
         val drawableResource = when (numeros) {
             1 -> R.drawable.dice_1
@@ -49,7 +49,8 @@ class MainActivity : AppCompatActivity() {
             3 -> R.drawable.dice_3
             4 -> R.drawable.dice_4
             5 -> R.drawable.dice_5
-            else -> R.drawable.dice_6
+            6 -> R.drawable.dice_6
+            else -> R.drawable.dice_7
         }
 
         diceImage.setImageResource(drawableResource)
